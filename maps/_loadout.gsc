@@ -66,15 +66,14 @@ give_loadout()
     maps\_loadout_code::default_loadout_if_notset();
 
     precacheitem("saw");
-    //precacheitem("m4_grunt");
+    precacheitem("m4_grunt");
     precacheitem("m4_grenadier");
     precacheitem("m203");
     precacheitem("m203_m4");
-    //precacheitem("m4_silencer");
-    //precacheitem("m4m203_silencer");
-    //precacheitem("m4m203_silencer_reflex");
-    //precacheitem("m203_m4_silencer_reflex");
-    //precacheitem("m203_m4");
-    //precacheitem("m203_m4_silencer");
-    precacheitem("mp5");
+    precacheitem("m4_silencer");
+    precacheitem("m4m203_silencer");
+    precacheitem("m4m203_silencer_reflex");
+    precacheitem("m203_m4_silencer_reflex");
+    precacheitem("m203_m4_silencer");
+    precacheitem("h1_m4_mp");
 }
